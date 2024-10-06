@@ -35,7 +35,7 @@ export default function Contact() {
       <p className="text-gray-700 -mt-6 dark:text-white/80">
       Sinta-se à vontade para entrar em contato comigo via email: {" "} 
         <a className="underline" href="mailto:anthonythomascontato@gmail.com">
-          anthonythomascontato@gmail.com
+          anthonythomascloud@gmail.com
         </a>{<br></br>}
         ou enviando o formulário abaixo e retornarei o mais breve possível.
       </p>

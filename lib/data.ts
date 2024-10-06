@@ -6,7 +6,6 @@ import studioantropocenoImg from "@/public/studioantropoceno.png";
 import djeliImg from "@/public/djeli.png";
 import afroglowImg from "@/public/afroglow1.png";
 
-
 export const links = [
   {
     name: "Início",
@@ -58,28 +57,36 @@ export const experiencesData = [
       "Curso Técnico: 6 meses de estudos como Desenvolvoder Full-Stack com sólidos conhecimentos em HTML/CSS, JavaScript, React, Java, MySQL, AWS. ",
     icon: React.createElement(FaJava),
     date: "2023 - 2023",
-  },{
-    title: "Estagiário",
+  },
+  {
+    title: "Estagiário de Engenharia de Software",
     location: "Itaú Unibanco",
     description:
-      "Estagio em engenharia de software.",
-    icon: React.createElement(FaReact),
-    date: "2024 - até o momento",
+      "Atuo desenvolvendo novas features e aprimorando a experiência do usuário. Trabalho na criação e implementação de agentes de IA generativa, aplicando técnicas avançadas de engenharia de prompts para otimizar suas respostas e eficiência. Além disso, contribuo com novas ideias para impulsionar a evolução contínua do produto, colaborando com diferentes equipes para trazer soluções tecnológicas que agregam valor ao negócio.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Março de 2024 - até o momento.",
   },
 ] as const;
 
 export const projectsData = [
   {
     title: "AfroGlow",
-   
+
     description:
       "A AfroGlow é uma plataforma dedicada a promover a autoestima de crianças com cabelos cacheados, crespos e ondulados desde tenra idade, visando capacitá-las a enfrentar o preconceito e o racismo. 🏆O projeto foi premiado como o melhor entre 25 projetos participantes no curso do Instituto PROA, destacando-se pelo impacto positivo que tem na vida das crianças com cabelos afro. ",
-    tags: ["React", "Bootstrap", "Java", "Spring Boot", "Spring Security", "PostgreSQL"],
+    tags: [
+      "React",
+      "Bootstrap",
+      "Java",
+      "Spring Boot",
+      "Spring Security",
+      "PostgreSQL",
+    ],
     imageUrl: afroglowImg,
   },
   {
     title: "Djeli",
-   
+
     description:
       "A Djeli é uma uma startup focada em elevar a autoestima de mulheres em transição capilar, visando apoia-las a enfrentar o preconceito e o racismo. 🏆O projeto foi desenvolvido durante a 11ª edição do Hackathon e foi premiado pela FIESP como o melhor entre 25 projetos das equipes participantes, destacando-se pela inovação e impacto positivo que tem na vida das mulheres com cabelos afro.",
     tags: ["React", "Node", "Express", "MongoDB", "Express", "AWS"],

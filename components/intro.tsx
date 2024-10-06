@@ -86,7 +86,7 @@ export default function Intro() {
        
           </motion.div>
           <Image
-              src="./retrato.jpg"
+              src="./retrato.jpeg"
               alt="retrato de Anthony Thomas"
               width="250"
               height="10"
@@ -132,7 +132,7 @@ export default function Intro() {
           </Row>
  <br />
 
-          <span className="text-2xl">Desenvolvedor Full Stack Júnior apaixonado por interfaces interativas.</span> {""} 
+          <span className="text-2xl">Desenvolvedor Full-Stack apaixonado por interfaces interativas.</span> {""} 
           <span className="text-2xl">Os projetos incluem criação e consumo de APIs, Javascript, Node.js, React, consultas a bancos de dados e muito mais.</span> 
         
 
@@ -178,7 +178,7 @@ export default function Intro() {
 
         <a
           className="bg-white p-4 text-gray-700 hover: flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://github.com/anthonythom"
+          href="https://github.com/DevT0nis"
           target="_blank"
         >
           <FaGithubSquare />

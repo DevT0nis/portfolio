@@ -24,7 +24,7 @@ export default function Intro() {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ["Desenvolvedor Full-Stack", "Desenvolvedor Cloud", "UI/UX Designer", "Analista de Dados"];
+  const toRotate = ["Desenvolvedor Full-Stack","Palestrante", "Criador de Conteúdo Tech", "@osestagiarios__","@devtonis" ];
   const period = 2000;
 
   useEffect(() => {
@@ -102,7 +102,7 @@ export default function Intro() {
               type: "spring",
               stiffness: 125,
               delay: 0.1,
-              duration: 0.7,
+              duration: 0.5,
             }}
           >
          
